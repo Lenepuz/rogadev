@@ -1,0 +1,270 @@
+/*== Navbar ==*/
+
+@media only screen and (min-width: 768px) {
+  .nav-brand {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .nav-brand {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .nav-brand {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .nav-brand {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .nav-brand {
+    font-size: 6rem;
+  }
+}
+
+/*== Hero Image ==*/
+@media only screen and (min-width: 768px) {
+  .hero {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .hero {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .hero {
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 3840px) {
+  .hero {
+    height: 600px;
+  }
+}
+
+/*== Hero ==*/
+
+@media screen and (max-width: 842px) {
+  .hero .text {
+    display: none;
+  }
+
+  .hero .typed-cursor {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 316px) {
+  .hero a.btn1,
+  a.btn2 {
+    display: block;
+    width: 100%;
+  }
+}
+/*== Heading secondary ==*/
+@media only screen and (min-width: 360px) {
+  .heading-secondary {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .heading-secondary {
+    font-size: 4rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .heading-secondary {
+    font-size: 4.5rem;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .heading-secondary {
+    font-size: 6rem;
+  }
+}
+
+@media only screen and (min-width: 3840px) {
+  .heading-secondary {
+    font-size: 7.5rem;
+  }
+}
+
+/*== Heading tertiary ==*/
+@media only screen and (min-width: 360px) {
+  .heading-tertiary {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .heading-tertiary {
+    font-size: 4.5rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .heading-tertiary {
+    font-size: 6rem;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  .heading-tertiary {
+    font-size: 9rem;
+  }
+}
+@media only screen and (min-width: 3840px) {
+  .heading-tertiary {
+    font-size: 10rem;
+  }
+}
+
+/*== Paragraph ==*/
+@media only screen and (min-width: 1024px) {
+  .paragraph {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .paragraph {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 3840px) {
+  .paragraph {
+    font-size: 2.5rem;
+  }
+}
+/*== paragraphBig ==*/
+
+/* @media only screen and (min-width: 360px) {
+  .paragraphBig {
+    font-size: 1.25rem;
+  }
+} */
+
+@media only screen and (min-width: 768px) {
+  .paragraphBig {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .paragraphBig {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .paragraphBig {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 3840px) {
+  .paragraphBig {
+    font-size: 2.5rem;
+  }
+}
+
+/*== paragraphBox ===*/
+
+@media only screen and (min-width: 768px) {
+  .paragraphBox {
+    margin-right: 16rem;
+    margin-left: 16rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .paragraphBox {
+    margin-right: 22rem;
+    margin-left: 22rem;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .paragraphBox {
+    margin-right: 22rem;
+    margin-left: 22rem;
+  }
+}
+
+@media only screen and (min-width: 3840px) {
+  .paragraphBox {
+    margin-right: 22rem;
+    margin-left: 22rem;
+  }
+}
+
+/*== ParallaxTxt ==*/
+
+@media only screen and (min-width: 360px) {
+  .parallaxTxt {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .parallaxTxt {
+    font-size: 4.5rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .parallaxTxt {
+    font-size: 5rem;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  .parallaxTxt {
+    font-size: 9rem;
+  }
+}
+
+@media only screen and (min-width: 3840px) {
+  .parallaxTxt {
+    font-size: 10rem;
+  }
+}
+/*== Parallax_image-area ==*/
+
+@media only screen and (min-width: 768px) {
+  .image-area {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .image-area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  .image-area {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
+
+@media only screen and (min-width: 3840px) {
+  .image-area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
