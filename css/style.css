@@ -63,16 +63,19 @@ a:hover {
 /*======*/
 
 /*=== Nav Start ===*/
+
+.logo img {
+  display: inline-block;
+  width: 140px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  vertical-align: middle;
+}
+
 .navbar {
   /* padding: 5px 0px; */
   border-bottom: none !important;
   transition: all 0.5s ease-in-out;
-}
-.nav-brand {
-  font-size: 1.25rem;
-  font-weight: 100;
-  color: #fff;
-  /* position: fixed; */
 }
 
 /*=======*/
@@ -235,77 +238,81 @@ a:hover {
   cursor: zoom-in;
 }
 
-/*=== Parallax Start ===*/
+/*=== Typed Txt ===*/
 
-.parallaxTxt {
+.typed_wrap {
+  background-position: center;
   color: white;
-  font-size: 2rem;
-  font-weight: 300;
+  /*centers it in the .banner*/
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-.hero .text,
-.hero .typed-cursor {
+.typed_wrap h1 {
   display: inline;
+  font-family: Roboto;
   font-size: 40px;
   font-weight: 300;
-  text-transform: uppercase;
 }
-
-.primary {
-  color: #ffd414;
+.typed_wrap h2 {
+  display: inline;
+  font-family: Roboto;
+  font-size: 40px;
   font-weight: 100;
+  color: #ffd414;
 }
-.secondary {
-  color: #fff;
-  font-weight: 400;
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+  content: "|";
+  display: inline;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
 }
 
+/*Removes cursor that comes with typed.js*/
 .typed-cursor {
-  opacity: 1;
-  animation: blink 1s infinite;
-  -webkit-animation: blink 1s infinite;
-  -moz-animation: blink 1s infinite;
+  opacity: 0;
+  display: none;
 }
-
+/*Custom cursor animation*/
 @keyframes blink {
   0% {
-    opacity: 1%;
+    opacity: 1;
   }
-
   50% {
-    opacity: 0%;
+    opacity: 0;
   }
-
   100% {
-    opacity: 1%;
+    opacity: 1;
   }
 }
-
 @-webkit-keyframes blink {
   0% {
-    opacity: 1%;
+    opacity: 1;
   }
-
   50% {
-    opacity: 0%;
+    opacity: 0;
   }
-
   100% {
-    opacity: 1%;
+    opacity: 1;
   }
 }
-
 @-moz-keyframes blink {
   0% {
-    opacity: 1%;
+    opacity: 1;
   }
-
   50% {
-    opacity: 0%;
+    opacity: 0;
   }
-
   100% {
-    opacity: 1%;
+    opacity: 1;
   }
 }
 
@@ -325,13 +332,6 @@ a:hover {
   background-position: center;
   color: white;
 }
-
-/* .map-overlay {
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.65);
-  position: relative;
-} */
 
 .map-content {
   position: absolute;
